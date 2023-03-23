@@ -20,7 +20,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(155, 172, 247);
 }
 
 ul {
@@ -29,4 +29,10 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.active-menu-link {
+    text-decoration: underline;
+    color: red;
 }
